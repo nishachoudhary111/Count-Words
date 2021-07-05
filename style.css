@@ -1,0 +1,99 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+nav{
+
+    height: 100px;
+    width:100%;
+    background-image: linear-gradient(180deg,
+        rgb(99, 235, 253) 0%,
+        rgb(51, 187, 197) 50%,
+        rgba(39,97,116,1) 100%);
+}
+
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(180deg,
+        rgb(99, 171, 253) 0%,
+        rgba(51,197,142,1) 50%,
+        rgba(39,97,116,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.controls {
+    margin-top: 16px;
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.set-alarm {
+    background-color: #498AFB;
+}
+
+.clear-alarm {
+    background-color: #FF3860;
+}
+
+.word{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+textarea{
+    border: 2px solid #0984e3;
+    border-radius: 10px;
+    outline:none;
+    font-size: 1.2rem;
+    padding: 10px 2px;
+    box-shadow: 0 0 4px 1px #b2bec3;
+
+}
+.count{
+    padding: 20px 30px;
+    color:white;
+    border-radius: 10px;
+    border: 2px solid #0984e3;
+    font-size: 1.2rem;
+    background-image: linear-gradient(180deg,
+        rgb(99, 235, 253) 0%,
+        rgb(51, 187, 197) 50%,
+        rgba(39,97,116,1) 100%);
+}
+
+p{
+    color: #0984e3;
+    font-size: 1.2rem;
+    
+}
